@@ -39,4 +39,17 @@ const ColorBlue = 2;
 
 enum Color{Red = 0,Green = 1 ,Blue = 2};
 let backgrounColor =Color.Red;
+//interfaces
+interface Point{
+x:number;
+y:number
 
+}
+let drawPoint = (point :Point ) =>{
+
+}
+drawPoint({
+  x:1,
+  y:2
+
+  })
